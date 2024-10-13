@@ -29,9 +29,29 @@
         </li>
       </ul>
     </div>
-    <h1>Contact</h1>
-    <p>Heb je nog andere vragen? Dan mag je gerust bellen of een mail sturen</p>
-    <a href="mailto:email@hotmail.com">Email</a>
-    <a href="tel:7777 77 77 77">7777 77 77 77</a>
+    <div class="header">
+      <h1>Contact</h1>
+    </div>
+    <div class="text">
+      <form class="form" action="" method="post">
+          <label for="naam">Naam:</label>
+          <input required type="text" name="naam" id="naam" placeholder="Naam">
+          <label for="email">E-mailadres:</label>
+          <input required type="email" name="email" id="naam" placeholder="E-mailadres">
+          <label for="onderwerp">onderwerp:</label>
+          <input type="text" name="onderwerp" id="onderwerp" placeholder="Onderwerp">
+          <label for="tekstveld">Mail</label>
+          <textarea required name="tekstveld" id="tekstveld" placeholder="Mail"></textarea>
+      </form>
+    </div>
+    <div id="text">
+      <p>
+        Heb je toch nog andere vragen? Dan kan je me bereiken via mail of telefoon
+      </p>
+    </div>
+    <div id="link">
+      <a href="mailto:email@hotmail.com">Email@hotmail.com</a>
+      <a href="tel:7777 77 77 77">7777 77 77 77</a>
+    </div>
   </body>
 </html>
