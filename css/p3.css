@@ -3,7 +3,7 @@ body
     font-family: "Glegoo", "Kameron", "Aleo";
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #FFFFFF 0%, #FFFFFF 35%);
+    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #215419 0%, #215419 35%);
 }
 
 h1, a {color: #FFCC00;}
@@ -45,4 +45,5 @@ p {color: white;}
     width: 60%;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }

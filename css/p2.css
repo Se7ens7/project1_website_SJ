@@ -3,16 +3,17 @@ body
     font-family: "Glegoo", "Kameron", "Aleo";
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #FFFFFF 0%, #FFFFFF 35%);
+    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #215419 0%, #215419 35%);
 }
 
-h1, a {color: #FFCC00;}
+h1, h2, a {color: #FFCC00;}
 
 a {text-decoration: none;}
 
 a:hover {color: #F56702;}
 
 p {color: white;}
+
 
 
 .nav
@@ -29,4 +30,45 @@ p {color: white;}
 {
     list-style: none;
     padding: 0%;
+}
+
+.header
+{
+    display: inline-flex;
+    margin-left: 1rem;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+}
+
+.hmargin
+{
+    padding-top:40px;
+}
+
+.list
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 65%;
+}
+
+.list2
+{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+.list2 > div
+{
+    color: white;
+    
+}
+
+.list > div
+{
+    color: white;
 }

@@ -3,11 +3,10 @@ body
     font-family: "Glegoo", "Kameron", "Aleo";
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #FFFFFF 0%, #FFFFFF 35%);
+    background: linear-gradient(to right,#2C6F22 0%, #2C6F22 65%, #215419 0%, #215419 35%);
 }
 
-
-h1, a {color: #FFCC00;}
+h1, h2, a {color: #FFCC00;}
 
 a {text-decoration: none;}
 
@@ -15,6 +14,7 @@ a:hover {color: #F56702;}
 
 p {color: white;}
 
+li {color: white;}
 
 .nav
 {
@@ -32,6 +32,7 @@ p {color: white;}
     padding: 0%;
 }
 
+
 .header
 {
     display: inline-flex;
@@ -41,22 +42,37 @@ p {color: white;}
     top: 50px;
 }
 
+.topdiv
+{
+    display: inline-flex;
+    gap: 3%;
+}
+
 #text
 {
     width: 60%;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 5%;
 }
 
-.img
+.image
 {
-    display: inline-block;
     width: 30%;
-    padding-left: 10%;
+    max-width: 350px;
+    float: top;
 }
 
-.img > img
+.image > img
 {
-    border: black solid 5px;
     width: 100%;
+    border: black solid 5px;
+}
+
+.align
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
 }
