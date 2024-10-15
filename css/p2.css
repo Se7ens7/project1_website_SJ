@@ -72,3 +72,18 @@ p {color: white;}
 {
     color: white;
 }
+
+.image
+{
+    display: inline-flex;
+    width: 10%;
+    float: inline-end;
+    padding-right: 40%;
+}
+
+
+.image > img
+{
+    width: 100%;
+    border: black solid 5px;
+}

@@ -47,3 +47,21 @@ p {color: white;}
     flex-direction: column;
     padding-top: 50px;
 }
+
+.image
+{
+    width: 35%;
+    padding-left: 20px;
+}
+
+.image > img
+{
+    width: 100%;
+    border: solid black 5px;
+}
+
+.align
+{
+    display: flex;
+    flex-direction: row;
+}

@@ -77,3 +77,9 @@ p {color: white;}
     gap: 15px;
     border-top: #FFCC00 2px solid;
 }
+
+.submit
+{
+    padding-top: 1rem;
+}
+
