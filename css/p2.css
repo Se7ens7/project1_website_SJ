@@ -12,7 +12,7 @@ a {text-decoration: none;}
 
 a:hover {color: #F56702;}
 
-p {color: white;}
+p, td {color: white;}
 
 
 
@@ -60,6 +60,14 @@ p {color: white;}
     flex-direction: column;
     gap: 10px;
     width: 20%;
+}
+
+.list3
+{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 65%;
 }
 
 .list2 > div
